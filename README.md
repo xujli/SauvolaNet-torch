@@ -46,8 +46,8 @@ More precisely, SauvolaNet consists of three modules, namely, Multi-window Sauvo
 
 LineCounter is written in TensorFlow.
   
-  - TensorFlow-GPU: 1.15.0
-  - keras-gpu 2.2.4 
+  - [=TensorFlow-GPU: 1.15.0=] Pytorch
+  [=- keras-gpu 2.2.4=] 
   
 Other versions might also work but are not tested.
 
@@ -59,7 +59,7 @@ Download the repo and create the virtual environment by following commands
 ```
 conda create --name LineCounter --file spec-env.txt
 conda activate Sauvola
-pip install tensorflow-gpu==1.15.0
+pip install [=tensorflow-gpu==1.15.0=] pytorch
 pip install opencv-python
 pip install parse
 ```
